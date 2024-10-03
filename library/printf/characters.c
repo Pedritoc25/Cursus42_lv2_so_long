@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   characters.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pyr <pyr@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 16:34:50 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/09/30 11:01:37 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/10/03 11:59:30 by pyr              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,11 +32,6 @@ int	ft_putchar_printf(char c)
 //Prints a string and returns counter
 int	ft_putstr_printf(char *s)
 {
-	int	count;
-	int	i;
-
-	count = 0;
-	i = 0;
 	if (!s)
 		return (write(1, "(null)", 6));
 	return (write(1, s, ft_strlen_printf(s)));
