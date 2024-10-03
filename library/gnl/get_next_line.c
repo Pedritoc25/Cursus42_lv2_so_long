@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pyr <pyr@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 15:53:44 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/09/24 21:15:32 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/10/03 12:00:36 by pyr              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,7 +95,7 @@ char	*get_next_line(int fd)
 		stable = read_text(fd, buffer_text, stable);
 	if (!stable)
 		return (free(buffer_text), NULL);
-	line = shape_line(stable);
+	line = shape_line_gnl(stable);
 	if (!line)
 		return (free(buffer_text), NULL);
 	stable = trim_static(stable, line);

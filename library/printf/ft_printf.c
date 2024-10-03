@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pyr <pyr@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 15:55:40 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/03/21 10:22:10 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/10/03 12:00:16 by pyr              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_printf(const char *format, ...)
 			i++;
 		}
 		else
-			count += ft_putchar(format[i]);
+			count += ft_putchar_printf(format[i]);
 		i++;
 	}
 	va_end(ptr);

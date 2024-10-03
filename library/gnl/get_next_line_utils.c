@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pyr <pyr@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 16:48:23 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/09/24 21:17:24 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/10/03 12:00:51 by pyr              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ char	*ft_strchr_gnl(char *s, int c)
 	if (!s)
 		return (NULL);
 	i = 0;
-	len = ft_strlen(s);
+	len = ft_strlen_gnl(s);
 	while (i <= len)
 	{
 		if (s[i] == (char)c)
