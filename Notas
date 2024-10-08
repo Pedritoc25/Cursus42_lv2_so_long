@@ -1,6 +1,11 @@
 1. Hacer que el Makefile compile todo in errores (listo)
 2. Añadir la librería de Codam (listo)
+4. Leer mapa
+	Como guardarlo
+	Guardar mapa en un array usando GNL
 3. Parseo
+	comprobar que el mapa sea valido
+	flood fill
 4. Desarrollo con la minilib
 5. Inicialización
 6. Crear una ventana
