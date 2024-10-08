@@ -1,2 +1,10 @@
-1. Hacer que el Makefile compile todo in errores
-2. Añadir la librería de Codam
+1. Hacer que el Makefile compile todo in errores (listo)
+2. Añadir la librería de Codam (listo)
+3. Parseo
+4. Desarrollo con la minilib
+5. Inicialización
+6. Crear una ventana
+7. Escuchar eventos
+8. Cargar Texturas
+9. Renderizar ventana
+10. Gestionar movimiento
