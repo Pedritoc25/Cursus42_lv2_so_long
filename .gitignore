@@ -1,6 +1,7 @@
 */.*
 */*.out
 */*.gch
-*.
+.*
 *.out
 *.gch
+.gitignore
