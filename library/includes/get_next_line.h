@@ -6,7 +6,7 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 15:53:33 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/09/24 21:14:12 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/10/08 15:23:29 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # include <stdlib.h>
 # include <stddef.h>
 
-char	*get_next_line(int fd);
+char	*get_next_line(int fd, int flag);
 
 size_t	ft_strlen_gnl(char *s);
 

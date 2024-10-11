@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pyr <pyr@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 15:53:44 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/10/03 12:00:36 by pyr              ###   ########.fr       */
+/*   Updated: 2024/10/08 15:03:38 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,12 +78,14 @@ char	*shape_line_gnl(char *stable)
 	return (temp);
 }
 
-char	*get_next_line(int fd)
+char	*get_next_line(int fd, int flag)
 {
 	char		*buffer_text;
 	char		*line;
 	static char	*stable;
 
+	if (flag == 1 && stable != NULL)
+		return (free(stable), NULL);
 	if (BUFFER_SIZE <= 0 || fd < 0)
 		return (NULL);
 	buffer_text = (char *)ft_calloc_gnl(sizeof(char), (BUFFER_SIZE + 1));

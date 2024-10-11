@@ -1,11 +1,12 @@
-1. Hacer que el Makefile compile todo in errores (listo)
+1. Hacer que el Makefile compile la libreria, printf y gnl sin errores (listo)
 2. Añadir la librería de Codam (listo)
 4. Leer mapa
 	Como guardarlo
+	primera leida de gnl: comprobar que el mapa es valido (tamaño, coleccionables, jugadores)
 	Guardar mapa en un array usando GNL
+	opcional: Leer el mapa y a la vez guardarlo.
 3. Parseo
-	comprobar que el mapa sea valido
-	flood fill
+	flood fill, haz copia del mapa porque te pisa los caracteres
 4. Desarrollo con la minilib
 5. Inicialización
 6. Crear una ventana
@@ -13,3 +14,5 @@
 8. Cargar Texturas
 9. Renderizar ventana
 10. Gestionar movimiento
+
+Apuntes:
