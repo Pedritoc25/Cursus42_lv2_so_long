@@ -1,5 +1,6 @@
 1. Hacer que el Makefile compile la libreria, printf y gnl sin errores (en proceso)
 2. Añadir la librería de Codam (listo)
+2.2 Tienes que meter la minilib al makefile y te dejas terminado el fichero.
 4. Leer mapa
 	Como guardarlo
 	primera leida de gnl: comprobar que el mapa es valido (tamaño, coleccionables, jugadores)
