@@ -1,4 +1,4 @@
-1. Hacer que el Makefile compile la libreria, printf y gnl sin errores (listo)
+1. Hacer que el Makefile compile la libreria, printf y gnl sin errores (en proceso)
 2. Añadir la librería de Codam (listo)
 4. Leer mapa
 	Como guardarlo
@@ -16,3 +16,9 @@
 10. Gestionar movimiento
 
 Apuntes:
+Me está dando problemas las referencias de los includes de la libreria.
+Tengo que reestructurar las carpetas para facilitarme el trabajo
+Voy a darle un repaso al resto de proyectos por si merece la pena cambiar.
+
+1. Para estructurarlo poco a poco. Cambia el Makefile para que funcione unicamente con la libreria principal y prueba sus funciones.
+Cuando no te de problemas agregale el printf y haz lo mismo. Repite con el GNL y cuando vaya todo bien podras ir al paso 3.
