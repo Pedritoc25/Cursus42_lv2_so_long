@@ -2,20 +2,22 @@
 1.2 Editar funciones que vaya utilizando de la libft, ej: proteger ft_strlen como el de ft_strlen_gnl
 2. Añadir la librería de Codam (listo)
 2.2 Tienes que meter la minilib al makefile y te dejas terminado el fichero.
-4. Leer mapa
+	Leer la documentacion de la MLx2 (está en el readme)
+	El makefile tiene que ejecutar cmake antes que make
+3. Leer mapa
 	Como guardarlo
 	primera leida de gnl: comprobar que el mapa es valido (tamaño, coleccionables, jugadores)
 	Guardar mapa en un array usando GNL
 	opcional: Leer el mapa y a la vez guardarlo.
-3. Parseo
+4. Parseo
 	flood fill, haz copia del mapa porque te pisa los caracteres
-4. Desarrollo con la minilib
-5. Inicialización
-6. Crear una ventana
-7. Escuchar eventos
-8. Cargar Texturas
-9. Renderizar ventana
-10. Gestionar movimiento
+5. Desarrollo con la minilib
+6. Inicialización
+7. Crear una ventana
+8. Escuchar eventos
+9. Cargar Texturas
+10. Renderizar ventana
+11. Gestionar movimiento
 
 Apuntes:
 Me está dando problemas las referencias de los includes de la libreria.
@@ -24,3 +26,21 @@ Voy a darle un repaso al resto de proyectos por si merece la pena cambiar.
 
 1. Para estructurarlo poco a poco. Cambia el Makefile para que funcione unicamente con la libreria principal y prueba sus funciones.
 Cuando no te de problemas agregale el printf y haz lo mismo. Repite con el GNL y cuando vaya todo bien podras ir al paso 3.
+2. Ejecuta el codigo de prueba del readme de la minilib para comprobar que funciona y buscar la forma de meterlo en el makefile
+3. Fijate en los requisitos de la pagina 9 del subject para comprobar que el mapa sea valido
+	• El mapa estará construido de 3 componentes: paredes, objetos y espacio abierto.
+	• El mapa estará compuesto de solo 5 caracteres: 0 para un espacio vacío, 1 para un
+	muro, C para un coleccionable, E para salir del mapa y P para la posición inicial
+	del jugador.
+	• El mapa debe tener una salida, al menos un objeto y una posición inicial.
+	• Si el mapa contiene caractéres duplicados (salida o posición
+	inicial), deberás mostrar un mensaje de error.
+	• El mapa debe ser rectangular.
+	• El mapa deberá estar cerrado/rodeado de muros, en caso contrario el programa
+	deberá devolver un error.
+	• Tienes que comprobar si hay un camino válido en el mapa.
+	• Debes poder procesar cualquier tipo de mapa, siempre y cuando respete las anteriores normas.
+	• Otro ejemplo minimalista de un mapa .ber:
+	• En caso de fallos de configuración de cualquier tipo encontrados en el archivo, el
+	programa debe terminar correctamente y devolver “Error\n” seguido de un mensaje
+	explícito de tu elección.
