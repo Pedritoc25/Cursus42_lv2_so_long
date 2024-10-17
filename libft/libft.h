@@ -6,7 +6,7 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/12 19:16:39 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/03/05 10:42:17 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/10/17 17:30:29 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 # include <stdlib.h>
 # include <stdbool.h>
 # include <unistd.h>
+# include "printf/ft_printf.h"
+# include "gnl/get_next_line.h"
 
 typedef struct s_list
 {
