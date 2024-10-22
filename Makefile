@@ -1,6 +1,7 @@
 NAME = so_long
 LIBFT_DIR = libft
 CFLAGS = -Wall -Wextra -Werror -g3 -fsanitize=address
+MLX_FLAG := -L MLX42/build -l mlx42 -l glfw -l dl -l m -pthread
 CC = cc
 
 SRCS =	src/so_long.c \
@@ -10,10 +11,13 @@ OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
 
+$(NAME): $(OBJS) MLX42/build/libmlx42.a
+	$(MAKE) -C $(LIBFT_DIR) 
+	$(CC) $(CFLAGS) $(OBJS) $(MLX_FLAG) -L$(LIBFT_DIR) -lft -o $(NAME)
 
-$(NAME): $(OBJS)
-	$(MAKE) -C $(LIBFT_DIR)
-	$(CC) $(CFLAGS) $(OBJS) -L$(LIBFT_DIR) -lft -o $(NAME)
+MLX42/build/libmlx42.a:
+	cmake MLX42 -B MLX42/build
+	make -C MLX42/build -j4
 
 clean:
 	$(MAKE) clean -C libft
@@ -21,6 +25,6 @@ clean:
 
 fclean: clean
 	$(MAKE) fclean -C libft
-	rm $(NAME)
+	rm $(NAME) -fr MLX42/build
 
 re: fclean all
