@@ -5,7 +5,12 @@ MLX_FLAG := -L MLX42/build -l mlx42 -l glfw -l dl -l m -pthread
 CC = cc
 
 SRCS =	src/so_long.c \
-		src/so_long_utils.c
+		src/so_long_utils.c \
+		src/map_structure/floodfill_map.c \
+		src/map_structure/parser_map.c \
+		src/map_structure/read_map.c \
+		src/map_structure/requirements_map.c \
+		src/map_structure/validate_map
 
 OBJS = $(SRCS:.c=.o)
 
