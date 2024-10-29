@@ -1,7 +1,7 @@
 1. Hacer que el Makefile compile la libreria, printf y gnl sin errores (listo)
 1.2 Editar funciones que vaya utilizando de la libft, ej: proteger ft_strlen como el de ft_strlen_gnl
 2. Añadir la librería de Codam (listo)
-2.2 Tienes que meter la minilib al makefile y te dejas terminado el fichero.
+2.2 Tienes que meter la minilib al makefile y te dejas terminado el fichero. (listo)
 	Leer la documentacion de la MLx2 (está en el readme)
 	El makefile tiene que ejecutar cmake antes que make
 3. Leer mapa
