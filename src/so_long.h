@@ -6,7 +6,7 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 14:00:59 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/10/17 17:46:44 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/11/20 12:23:43 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 # define SO_LONG_H
 
 # include "../libft/libft.h"
+
+int	ft_print_error(int i);
 
 #endif

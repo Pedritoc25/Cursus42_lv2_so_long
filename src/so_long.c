@@ -6,13 +6,16 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 11:26:26 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/10/29 17:15:07 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/11/20 12:40:28 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
+#include "map_structure/map_structure.h"
 
-int main (void)
-{
+//Pass one map as argument and play it if its valid
+int main (int argc, char **argv)
+{	
+	ft_validate_map(argv[1]);
 	return 0;
 }
