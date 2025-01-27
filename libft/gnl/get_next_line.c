@@ -6,7 +6,7 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 15:53:44 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/10/08 15:03:38 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/11/20 12:52:53 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,6 +78,7 @@ char	*shape_line_gnl(char *stable)
 	return (temp);
 }
 
+//Reads a file and allows you to read a line ending with a newline character from a file descriptor
 char	*get_next_line(int fd, int flag)
 {
 	char		*buffer_text;
