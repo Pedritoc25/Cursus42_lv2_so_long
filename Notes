@@ -44,3 +44,15 @@ Cuando no te de problemas agregale el printf y haz lo mismo. Repite con el GNL y
 	• En caso de fallos de configuración de cualquier tipo encontrados en el archivo, el
 	programa debe terminar correctamente y devolver “Error\n” seguido de un mensaje
 	explícito de tu elección.
+
+--------------------------------------------------------------------------------------------
+
+Parseo:
+
+Pasos
+-leer el mapa (read_map_file(F), F = *.ber)
+	-Crear Matriz de casillas
+		-
+	-Numero de monedas
+
+	Crear un array global de errores con un listado de mensajes, que sea estatico para cumplir la norma
