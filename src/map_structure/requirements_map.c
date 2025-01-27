@@ -6,10 +6,11 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 12:09:53 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/10/29 12:11:12 by pcabanas         ###   ########.fr       */
+/*   Updated: 2024/10/30 18:15:42 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "map_structure.h"
 //Here goes the if else check for the map requirements
 /*
 Fijate en los requisitos de la pagina 9 del subject para comprobar que el mapa sea valido
@@ -30,3 +31,8 @@ Fijate en los requisitos de la pagina 9 del subject para comprobar que el mapa s
 	programa debe terminar correctamente y devolver “Error\n” seguido de un mensaje
 	explícito de tu elección.
 */
+
+char ft_check_map_requirements(line)
+{
+	
+}
