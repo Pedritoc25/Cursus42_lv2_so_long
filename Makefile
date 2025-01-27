@@ -1,6 +1,7 @@
 NAME = so_long
 LIBFT_DIR = libft
-CFLAGS = -Wall -Wextra -Werror -g3 -fsanitize=address
+#Dont Forget Adding -Wall -Wextra -Werror into CFLAGS
+CFLAGS = -g3 -fsanitize=address
 MLX_FLAG := -L MLX42/build -l mlx42 -l glfw -l dl -l m -pthread
 CC = cc
 
@@ -9,8 +10,10 @@ SRCS =	src/so_long.c \
 		src/map_structure/floodfill_map.c \
 		src/map_structure/parser_map.c \
 		src/map_structure/read_map.c \
+		src/map_structure/load_map.c \
 		src/map_structure/requirements_map.c \
-		src/map_structure/validate_map
+		src/map_structure/validate_map.c \
+		src/error.c
 
 OBJS = $(SRCS:.c=.o)
 
