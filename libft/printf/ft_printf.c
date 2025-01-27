@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pyr <pyr@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 15:55:40 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/10/03 12:00:16 by pyr              ###   ########.fr       */
+/*   Updated: 2024/11/20 12:51:41 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
+//format and print data
 int	ft_printf(const char *format, ...)
 {
 	va_list	ptr;
