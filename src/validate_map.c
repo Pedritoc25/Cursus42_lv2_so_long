@@ -6,11 +6,11 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 12:08:04 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/11/27 13:05:23 by pcabanas         ###   ########.fr       */
+/*   Updated: 2025/01/28 12:16:51 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../so_long.h"
+# include "so_long.h"
 # include "map_structure.h"
 
 /*create an structure with the coordinates info and return the map as a

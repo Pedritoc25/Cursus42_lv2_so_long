@@ -6,11 +6,11 @@
 /*   By: pcabanas <pcabanas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 12:09:57 by pcabanas          #+#    #+#             */
-/*   Updated: 2024/11/20 12:35:03 by pcabanas         ###   ########.fr       */
+/*   Updated: 2025/01/28 12:16:30 by pcabanas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../so_long.h"
+# include "so_long.h"
 # include "map_structure.h"
 
 //check if map file ends in .ber
